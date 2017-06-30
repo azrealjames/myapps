@@ -1,0 +1,31 @@
+/*div {
+  width: 100px;
+  float: left;
+}
+
+#one {
+  background-color: red;
+}
+
+#two {
+  background-color: purple;
+}*/
+img {
+  /*percent is relative to the parent body*/
+  width: 30%;
+  /*Float gets rid of white space between elements*/
+  float: left;
+  /*each picture is 30% makeing 90% total and each one has a margin of 1.66% on either side* which equals 99.96%(Nearly 100%)*/
+  margin: 1.66%;
+}
+
+p {
+ font-family: Raleway;
+ margin-left: 1.66%;
+ font-size: 23px;
+ font-weight: 800;
+ text-transform: uppercase;
+ border-bottom: 2px solid #f1f1f1;
+ width: 30%;
+ padding-bottom: 20px;
+}

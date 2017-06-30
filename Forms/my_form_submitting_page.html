@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Form Demo</title>
+ </head>
+ <body>
+ <h1>Login</h1>
+
+ <!-- action - where the form send data to -->
+ <!-- method - what HTTP method (get/post)  -->
+ <!-- <form>
+ 	<input type="text" name="username" placeholder="username">
+  	<input type="password" name="password" placeholder="password">
+ 	<input type="submit">
+ </form> -->
+<!-- <form>
+	<label for="email">Email:</label>
+	<input id="email" type="email" placeholder="email" required>
+	<label for="password">Password:</label>
+	<input id="pasword" type="password" required>
+	<button>Login</button>
+</form> -->
+
+<form>
+	<label>
+		Email:
+		<input type="email" name="email" placeholder="your email" required>
+	</label>
+	<label>
+		Password:
+		<input type="password" name="password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters">
+	</label>
+	<input type="submit">
+</form>
+ </body>
+ </html>

@@ -1,0 +1,21 @@
+h1 {
+	color: rgba(0, 20, 200, 1);
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+	border: 8px dashed #FF0000;
+}
+
+li {
+	color: Green;
+}
+
+h4 {
+	background: rgb(255, 100, 80);
+}
+
+body {
+	background: url(https://static.vecteezy.com/system/resources/previews/000/106/564/non_2x/seamless-geometric-blue-pattern-vector.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
