@@ -12,10 +12,9 @@ body {
 
 .navbar-inverse .navbar-nav>li>a {
  color: black;
-
 }
 
 .jumbotron {
  color: #000000;
- background-color: hsla(0, 100%, 93%, 1);
+ background-color: rgba(117, 65, 65, 0.16);
 }
