@@ -29,3 +29,23 @@ function kebabToSnake(str) {
  return myString;
  //try with: "this - is -a - ---test";
 }
+
+// Building our own for.Each
+function myForEach(arr, func) {
+ // loop through arrar
+ for (var i = 0; i < arr.length; i++) {
+  // call func for each item in array
+  func();
+ }
+}
+
+//The keyword "this"
+var comments = {}
+
+comments.data = ["Good", "Great job", "Lame"]
+
+comments.print = function() {
+ this.data.forEach(function(el) {
+  console.log(el);
+ });
+}
