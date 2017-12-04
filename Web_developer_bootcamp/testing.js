@@ -49,3 +49,34 @@ comments.print = function() {
   console.log(el);
  });
 }
+
+// An example of dispalying a message when cliked
+var button = document.querySelector("button");
+var paragraph = document.querySelector("p");
+
+// setup click event First example
+button.addEventListener("click", function() {
+ paragraph.textContent = "Someone clicked the button!! :D"
+});
+
+paragraph.addEventListener("mouseover", function() {
+ this.textContent = "No on has clicked the button yet. :(";
+});
+// setup click event Second example
+// button.addEventListener("click", changeText);
+
+// function changeText() {
+//  paragraph.textContent = "Someone Clicked the Button! :D"
+// }
+
+var para = document.querySelector("#mouseover");
+
+// setup mouse over listener
+para.addEventListener("mouseover", function() {
+ this.textContent = "Stop hovering over me!"
+});
+
+// setup mouse out listener
+para.addEventListener("mouseout", function() {
+ this.textContent = "Phew, thank you for leaving me alone";
+});
